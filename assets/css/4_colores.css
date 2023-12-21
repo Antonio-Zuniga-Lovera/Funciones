@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/005/280/539/non_2x/geometric-background-seamless-pattern-cubes-shapes-abstract-decoration-illustration-free-vector.jpg');
+    font-family: 'Poppins', sans-serif;
+}
+
+#Container {
+    width: 75%;
+    height: 90%;
+    background-color: violet;
+    border: 2px solid #000;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#Sub-container-1 {
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.contenedores {
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+
+#Sub-container-2 {
+    width: 75%;
+    height: 29%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenedores-creados {
+    width: 200px; 
+    height: 200px;
+}
+
